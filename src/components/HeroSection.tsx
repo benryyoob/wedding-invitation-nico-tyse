@@ -6,6 +6,7 @@ import Image from "next/image";
 import { weddingData } from "@/lib/data";
 import FlowerOrnament from "./FlowerOrnament";
 import VintageFrame from "./VintageFrame";
+import GoldFrame from "./GoldFrame";
 
 interface TimeLeft {
   days: number;
@@ -49,6 +50,7 @@ export default function HeroSection() {
   ];
 
   return (
+    <GoldFrame inset={18} variant="classic">
     <section className="hero-section relative overflow-hidden">
       <FlowerOrnament className="flower-top" />
       <FlowerOrnament className="flower-bottom" delay={1} />
@@ -86,7 +88,7 @@ export default function HeroSection() {
 
           {/* NAMA PASANGAN */}
           <h2 className="hero-title countdown-couple-name">
-            Nico & Tise
+            Nico & Tyse
           </h2>
 
           {/* CINCIN */}
@@ -109,5 +111,6 @@ export default function HeroSection() {
         </div>
       </motion.div>
     </section>
+      </GoldFrame>
   );
 }

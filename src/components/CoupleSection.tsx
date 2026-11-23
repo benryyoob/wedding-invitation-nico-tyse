@@ -5,6 +5,8 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import { Camera } from "lucide-react";
 import { weddingData } from "@/lib/data";
+import GoldFrame from "./GoldFrame";
+import FlowerOrnament from "./FlowerOrnament";
 
 export default function CoupleSection() {
   const profiles = [
@@ -19,7 +21,10 @@ export default function CoupleSection() {
   ];
 
   return (
+    <GoldFrame inset={18} variant="classic">
     <section className="couple-section">
+          <FlowerOrnament className="flower-top" />
+          <FlowerOrnament className="flower-bottom" delay={1} />
       <div className="couple-container">
 
         <motion.div
@@ -115,5 +120,6 @@ export default function CoupleSection() {
 
       </div>
     </section>
+    </GoldFrame>
   );
 }

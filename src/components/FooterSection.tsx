@@ -56,7 +56,6 @@ export default function FooterSection() {
               <div className="footer-family-line"></div>
               <p>Keluarga Besar Obe</p>
               <p>Keluarga Besar Lake</p>
-              <p>Keluarga Besar Laome</p>
               <p>Keluarga Besar Luly</p>
             </div>
 
@@ -70,10 +69,10 @@ export default function FooterSection() {
 
               <div className="footer-family-line"></div>
 
-              <p>Kel. Besar Wens. E. Tjanggul (Alm.)</p>
-              <p>Kel. Besar Valentina Tanone Tjung (Almh.)</p>
-              <p>Kel. Besar Ham</p>
-              <p>Kel. Besar Kwee</p>
+              <p>Keluarga Besar Wens. E. Tjanggul (Alm.)</p>
+              <p>Keluarga Besar Valentina Tanone Tjung (Almh.)</p>
+              <p>Keluarga Besar Ham</p>
+              <p>Keluarga Besar Kwee</p>
             </div>
 
           </div>
@@ -93,7 +92,7 @@ export default function FooterSection() {
             <span>✦</span>
           </div>
 
-          <h2>Nico <span>&</span> Tise</h2>
+          <h2>Nico <span>&</span> Tyse</h2>
         </motion.div>
 
         {/* Ornamen Bawah */}

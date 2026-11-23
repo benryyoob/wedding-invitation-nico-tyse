@@ -1,6 +1,6 @@
 export const weddingData = {
   groom: "Nico",
-  bride: "Tise",
+  bride: "Tyse",
 
   groomFull: "Nicolaus Budi Laome Luly, S.Kom",
   brideFull: "Patrise Giokeni Timoro, A.Md.Keb",
@@ -22,7 +22,7 @@ export const weddingData = {
       date: "01 Desember 2026",
       time: "15.00 WITA",
       venue: "GMIT Jemaat Agape Kupang",
-      address: "Jl. Patimura No.2, Bonipoi, Kec. Kota Lama, Kota Kupang, Nusa Tenggara Timur.",
+      address: "Jl. Patimura No.2, Bonipoi, Kec. Kota Lama, Kota Kupang",
       maps: "https://maps.app.goo.gl/zmvqYmjhkZwLPY8J8",
       icon: "church",
     },
@@ -30,9 +30,9 @@ export const weddingData = {
       title: "Resepsi",
       date: "01 Desember 2026",
       time: "19.00 WITA",
-      venue: "Nama Tempat Resepsi",
-      address: "Alamat Tempat Resepsi",
-      maps: "https://maps.google.com",
+      venue: "Grand Mutiara Lantai 1",
+      address: "Jl. Nasional Trans-Timor No.118 A, Pasir Panjang, Kec. Kota Lama, Kota Kupang",
+      maps: "https://maps.app.goo.gl/zxiGCSBKwT6ic54g9",
       icon: "reception",
     },
   ],
@@ -40,14 +40,14 @@ export const weddingData = {
   groomProfile: {
   fullName: "Nicolaus Budi Laome Luly, S.Kom",
   nickname: "Nico",
-  parents: "Putra dari Bapak Dominikus Obe (Alm) & Ibu Benie Wijayanti",
+  parents: "Putra dari Bapak Drs. Dominikus Tabean Obe (Alm) & Ibu Benie Wijayanti",
   photo: "/images/groom.jpeg",
   },
 
   brideProfile: {
     fullName: "Patrise Giokeny Timoro, A.Md.Keb",
-    nickname: "Tise",
-    parents: "Putri Pertama Anak Kedua dari Bapak Chrisyanto R. Tjanggul & Ibu Ruth P. Ham",
+    nickname: "Tyse",
+    parents: "Putri Pertama Anak Kedua dari Bapak Chrisyanto Reynold Tjanggul & Ibu Ruth Petronela Ham",
     photo: "/images/bride.jpeg",
   },
 };
