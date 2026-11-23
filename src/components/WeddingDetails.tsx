@@ -8,7 +8,6 @@ import FlowerOrnament from "./FlowerOrnament";
 
 export default function WeddingDetails() {
   return (
-    <GoldFrame inset={18} variant="classic">
     <section className="details-section">
               <FlowerOrnament className="flower-top" />
               <FlowerOrnament className="flower-bottom" delay={1} />
@@ -106,6 +105,5 @@ export default function WeddingDetails() {
       </div>
 
     </section>
-    </GoldFrame>
   );
 }
