@@ -17,20 +17,20 @@ const siteUrl = "https://wedding-invitation-nico-tise.vercel.app";
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
 
-  title: "The Wedding of Nico & Tise",
+  title: "The Wedding of Nico & tyse",
 
   description:
-    "Dengan penuh kasih, kami mengundang Bapak/Ibu/Saudara/i untuk hadir dan memberikan doa restu pada pernikahan Nico & Tise.",
+    "Dengan penuh kasih, kami mengundang Bapak/Ibu/Saudara/i untuk hadir dan memberikan doa restu pada pernikahan Nico & tyse.",
 
   openGraph: {
-    title: "The Wedding of Nico & Tise",
+    title: "The Wedding of Nico & tyse",
 
     description:
       "Merupakan suatu kebahagiaan bagi kami apabila Bapak/Ibu/Saudara/i berkenan hadir dan memberikan doa restu kepada kami.",
 
     url: siteUrl,
 
-    siteName: "The Wedding of Nico & Tise",
+    siteName: "The Wedding of Nico & Tyse",
 
     locale: "id_ID",
 
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
         url: "/og-image.jpeg",
         width: 1200,
         height: 630,
-        alt: "The Wedding of Nico & Tise",
+        alt: "The Wedding of Nico & tyse",
         type: "image/jpeg",
       },
     ],
@@ -50,9 +50,9 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
 
-    title: "The Wedding of Nico & Tise",
+    title: "The Wedding of Nico & Tyse",
 
-    description: "The Wedding of Nico & Tise",
+    description: "The Wedding of Nico & Tyse",
 
     images: ["/og-image.jpeg"],
   },

@@ -763,11 +763,43 @@ body {
 }
 
 .couple-parents {
+  width: 100%;
+  max-width: 280px;
   min-height: 55px;
+
+  margin: 0 auto;
+  padding: 0 12px;
+
+  box-sizing: border-box;
+
   color: rgba(255, 249, 237, 0.8);
+
   font-family: "Cormorant Garamond", serif;
   font-size: clamp(15px, 3vw, 25px);
   line-height: 1.5;
+
+  text-align: center;
+
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
+/* TABLET */
+@media (max-width: 768px) {
+  .couple-parents {
+    max-width: 250px;
+    font-size: clamp(15px, 3vw, 21px);
+  }
+}
+
+/* MOBILE */
+@media (max-width: 480px) {
+  .couple-parents {
+    max-width: 220px;
+    padding: 0 10px;
+    font-size: 16px;
+    line-height: 1.45;
+  }
 }
 
 .couple-symbol {

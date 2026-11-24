@@ -3,10 +3,8 @@
 import React from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
-import { Camera } from "lucide-react";
 import { weddingData } from "@/lib/data";
 import GoldFrame from "./GoldFrame";
-import FlowerOrnament from "./FlowerOrnament";
 
 export default function CoupleSection() {
   const profiles = [
