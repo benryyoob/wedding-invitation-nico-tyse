@@ -40,14 +40,14 @@ export const weddingData = {
   groomProfile: {
   fullName: "Nicolaus Budi Laome Luly, S.Kom",
   nickname: "Nico",
-  parents: "Putra dari Bapak Drs. Dominikus Tabean Obe (Alm) & Ibu Benie Wijayanti",
+  parents: "Putra Bungsu dari Bapak Drs. Dominikus Tabean Obe (Alm) & Ibu Benie Wijayanti",
   photo: "/images/groom.jpeg",
   },
 
   brideProfile: {
     fullName: "Patrise Giokeny Timoro, A.Md.Keb",
     nickname: "Tyse",
-    parents: "Putri Pertama Anak Kedua dari Bapak Chrisyanto Reynold Tjanggul & Ibu Ruth Petronela Ham",
+    parents: "Putri Pertama dari Bapak Chrisyanto Reynold Tjanggul & Ibu Ruth Petronela Ham",
     photo: "/images/bride.jpeg",
   },
 };
