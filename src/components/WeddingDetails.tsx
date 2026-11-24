@@ -4,13 +4,41 @@ import { motion } from "framer-motion";
 import { MapPin, Clock, CalendarDays } from "lucide-react";
 import { weddingData } from "@/lib/data";
 import GoldFrame from "./GoldFrame";
-import FlowerOrnament from "./FlowerOrnament";
+import Image from "next/image";
 
 export default function WeddingDetails() {
   return (
+      <GoldFrame inset={18} variant="classic">
     <section className="details-section">
-              <FlowerOrnament className="flower-top" />
-              <FlowerOrnament className="flower-bottom" delay={1} />
+              {/* =================================
+                  DEKORASI BUNGA
+              ================================= */}
+      
+              {/* Bunga kiri atas */}
+              <Image
+                src="/images/flower-top-left.png"
+                alt=""
+                width={500}
+                height={600}
+                priority
+                aria-hidden="true"
+                className="hero-flower hero-flower-top-left"
+              />
+      
+              {/* Bunga kanan bawah */}
+              <Image
+                src="/images/flower-bottom-right.png"
+                alt=""
+                width={500}
+                height={600}
+                loading="lazy"
+                aria-hidden="true"
+                className="hero-flower hero-flower-bottom-right"
+              />
+      
+              {/* =================================
+                  KONTEN UTAMA
+              ================================= */}
 
       <div className="details-container">
 
@@ -22,13 +50,13 @@ export default function WeddingDetails() {
           transition={{ duration: 1 }}
         >
 
-          <h2 className="section-title">
+          <h3 className="section-title">
             Pemberkatan
             <br /> 
             & 
             <br />
             Resepsi
-          </h2>
+          </h3>
 
           <div className="countdown-divider">
             ✦
@@ -105,5 +133,6 @@ export default function WeddingDetails() {
       </div>
 
     </section>
+    </GoldFrame>
   );
 }
