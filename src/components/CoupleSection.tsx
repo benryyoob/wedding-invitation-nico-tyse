@@ -23,8 +23,32 @@ export default function CoupleSection() {
   return (
     <GoldFrame inset={18} variant="classic">
     <section className="couple-section">
-          <FlowerOrnament className="flower-top" />
-          <FlowerOrnament className="flower-bottom" delay={1} />
+    
+            {/* =================================
+                DEKORASI BUNGA
+            ================================= */}
+    
+            {/* Bunga kiri atas */}
+            <Image
+              src="/images/flower-top-left.png"
+              alt=""
+              width={500}
+              height={600}
+              priority
+              aria-hidden="true"
+              className="hero-flower hero-flower-top-left"
+            />
+    
+            {/* Bunga kanan bawah */}
+            <Image
+              src="/images/flower-bottom-right.png"
+              alt=""
+              width={500}
+              height={600}
+              loading="lazy"
+              aria-hidden="true"
+              className="hero-flower hero-flower-bottom-right"
+            />
       <div className="couple-container">
 
         <motion.div
@@ -74,7 +98,7 @@ export default function CoupleSection() {
               </div>
 
               <p className="couple-role">{person.role}</p>
-              <h3 className="couple-name">{person.fullName}</h3>
+              <h4 className="couple-name">{person.fullName}</h4>
               <p className="couple-nickname">{person.nickname}</p>
 
               <div className="couple-divider">✦</div>

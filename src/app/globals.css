@@ -27,111 +27,111 @@ body {
 
 /* OPENING COVER */
 
-.opening-cover {
-  min-height: 100svh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 20px;
-  background:
-    radial-gradient(
-      ellipse at center,
-      #76283b 0%,
-      #541525 50%,
-      #260912 100%
-    );
-  overflow: hidden;
-  position: relative;
-}
+  .opening-cover {
+    min-height: 100svh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background:
+      radial-gradient(
+        ellipse at center,
+        #76283b 0%,
+        #541525 50%,
+        #260912 100%
+      );
+    overflow: hidden;
+    position: relative;
+  }
 
-.cover-border {
-  width: 100%;
-  max-width: 500px;
-  min-height: 90svh;
-  border: 1px solid var(--gold);
-  padding: 8px;
-  position: relative;
-}
+  .cover-border {
+    width: 100%;
+    max-width: 500px;
+    min-height: 90svh;
+    border: 1px solid var(--gold);
+    padding: 8px;
+    position: relative;
+  }
 
-.cover-inner {
-  min-height: calc(90svh - 18px);
-  border: 1px solid rgba(214,180,106,.5);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  padding: 35px 20px;
-}
+  .cover-inner {
+    min-height: calc(90svh - 18px);
+    border: 1px solid rgba(214,180,106,.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding: 35px 20px;
+  }
 
-.cover-content {
-  text-align: center;
-  position: relative;
-  z-index: 2;
-}
+  .cover-content {
+    text-align: center;
+    position: relative;
+    z-index: 2;
+  }
 
-.cover-subtitle {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 10px;
-  letter-spacing: 6px;
-  color: var(--gold);
-  margin-bottom: 35px;
-}
+  .cover-subtitle {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    letter-spacing: 6px;
+    color: var(--gold);
+    margin-bottom: 35px;
+  }
 
-.cover-names {
-  font-family: "Alex Brush", cursive;
-  font-size: clamp(36px, 9vw, 60px);
-  font-weight: 400;
-  line-height: 1.2;
-  color: var(--champagne);
-}
+  .cover-names {
+    font-family: "Alex Brush", cursive;
+    font-size: clamp(36px, 9vw, 60px);
+    font-weight: 400;
+    line-height: 1.2;
+    color: var(--champagne);
+  }
 
-.cover-names span {
-  display: block;
-  font-style: italic;
-  font-size: 36px;
-  color: var(--gold);
-  margin: 5px 0;
-}
+  .cover-names span {
+    display: block;
+    font-style: italic;
+    font-size: 36px;
+    color: var(--gold);
+    margin: 5px 0;
+  }
 
-.gold-divider {
-  color: var(--gold);
-  margin: 30px 0;
-  font-size: 22px;
-}
+  .gold-divider {
+    color: var(--gold);
+    margin: 30px 0;
+    font-size: 22px;
+  }
 
-.cover-date {
-  color: var(--gold);
-  font-size: 15px;
-  letter-spacing: 4px;
-}
+  .cover-date {
+    color: var(--gold);
+    font-size: 15px;
+    letter-spacing: 4px;
+  }
 
-.cover-invitation {
-  font-size: 17px;
-  line-height: 1.8;
-  margin: 35px 0;
-  color: var(--champagne);
-}
+  .cover-invitation {
+    font-size: 17px;
+    line-height: 1.8;
+    margin: 35px 0;
+    color: var(--champagne);
+  }
 
-.open-button {
-  border: 1px solid var(--gold);
-  color: var(--champagne);
-  background: transparent;
-  padding: 14px 28px;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 10px;
-  letter-spacing: 2px;
-  cursor: pointer;
-  transition: .3s;
-}
+  .open-button {
+    border: 1px solid var(--gold);
+    color: var(--champagne);
+    background: transparent;
+    padding: 14px 28px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    transition: .3s;
+  }
 
-.open-button:hover {
-  background: var(--gold);
-  color: var(--dark-maroon);
-}
+  .open-button:hover {
+    background: var(--gold);
+    color: var(--dark-maroon);
+  }
 
-.open-button span {
-  margin-right: 10px;
-}
+  .open-button span {
+    margin-right: 10px;
+  }
 
 /* FLOWER DECORATION */
 
@@ -182,6 +182,11 @@ body {
   font-size: 10px;
   letter-spacing: 5px;
   color: var(--gold);
+  padding-top: 35px;
+}
+
+.hero-couple-photo{
+  padding: 25px 0px 35px 0px;
 }
 
 .hero-title {
@@ -737,8 +742,8 @@ body {
 
 .couple-name {
   font-family: "Cormorant Garamond", serif;
-  font-size: clamp(28px, 4vw, 38px);
-  font-weight: 600;
+  font-size: clamp(25px, 3vw, 35px);
+  font-weight: 400;
   color: var(--champagne);
   line-height: 1.2;
 }
@@ -2648,28 +2653,70 @@ background: linear-gradient(
   }
 }
 
-/* ========================================
-   PEONY BURGUNDY & GOLD
-======================================== */
+/* =====================================
+   HERO SECTION
+===================================== */
 
-.flower-peony {
+.hero-section {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+}
+
+/* =====================================
+   FLOWER DECORATION
+===================================== */
+
+.hero-flower {
+  position: absolute;
   display: block;
-  overflow: visible;
+  width: clamp(150px, 35vw, 310px);
+  height: auto;
+  object-fit: contain;
   pointer-events: none;
-  filter: drop-shadow(0 5px 12px rgba(20, 0, 8, 0.35));
+  user-select: none;
+  z-index: 1;
 }
 
-/* Animasi lembut */
-.flower-peony {
-  animation: peony-float 6s ease-in-out infinite;
+/* BUNGA KIRI ATAS */
+.hero-flower-top-left {
+  top: -8px;
+  left: -8px;
+  transform: rotate(-2deg);
 }
 
-@keyframes peony-float {
-  0%, 100% {
-    translate: 0 0;
+/* BUNGA KANAN BAWAH */
+.hero-flower-bottom-right {
+  right: -8px;
+  bottom: -8px;
+  transform: rotate(-2deg);
+}
+
+/* =====================================
+   HERO CONTENT
+===================================== */
+
+.hero-content {
+  position: relative;
+  z-index: 5;
+}
+
+/* =====================================
+   MOBILE
+===================================== */
+
+@media (max-width: 768px) {
+  .hero-flower {
+    width: clamp(145px, 38vw, 190px);
   }
 
-  50% {
-    translate: 0 -6px;
+  .hero-flower-top-left {
+    top: 0;
+    left: 0;
+  }
+
+  .hero-flower-bottom-right {
+    right: 0;
+    bottom: 0;
   }
 }
