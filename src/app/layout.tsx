@@ -12,7 +12,7 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-const siteUrl = "https://wedding-invitation-nico-tise.vercel.app";
+const siteUrl = "https://wedding-invitation-nico-tyse.vercel.app";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
